@@ -1,0 +1,16 @@
+.charactersList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.charactersList a{
+    text-decoration: none;
+    color: black;
+    /* font-size: 20px; */
+}
+.search-character {
+    color: brown;
+    font-size: 27px;
+}
