@@ -10,7 +10,7 @@ export const Character = () => {
     if (loading) return <p>Loading...</p>;
     if (error) return <p>something went wrong</p>;
     return <div className="character">
-        <img src={data.character.image} width={450} height={450}/>
+        <img src={data.character.image} />
         <div className="character-content"> 
             <h1>{data.character.name}</h1>
             <p><strong>Gender</strong> - {data.character.gender}</p>

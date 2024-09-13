@@ -1,6 +1,4 @@
 .AppComponent {
-  max-width: 80%;
-  margin: 10rem;
   margin-top: 0;
 }
 .title {
@@ -10,4 +8,10 @@
   margin: 32px 0;
   font-size: 46px;
   font-weight: 800;
+}
+@media screen and (min-width :830px) {
+  .AppComponent{
+    max-width: 80%;
+    margin: 0 10rem;
+  }
 }
